@@ -9,5 +9,6 @@ public class Main {
 
         ShoppingCart cart = context.getBean(ShoppingCart.class);
         cart.checkout("Checked out");
+        System.out.println(cart.quantity());
     }
 }

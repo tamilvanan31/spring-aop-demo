@@ -8,4 +8,8 @@ public class ShoppingCart {
     public void checkout(String message) {
         System.out.println("Item purchased");
     }
+
+    public int quantity() {
+        return 2;
+    }
 }
